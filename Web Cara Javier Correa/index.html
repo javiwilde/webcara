@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="estil.css">
+
+    <!--    Sin Serifa-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <!--    Con Serifa-->
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    <script src="java.js"></script>
+
+
+
+    <title></title>
+</head>
+
+<body>
+
+    <div class="Fondo_01">
+        <div class="Titulo">
+            <a>CARA <br>RESPONSIVE <br>·greendog·</a>
+        </div>
+
+        <div class="TextoIntroduccion">
+            <p>"Proyecto realizado mediante la librería P5.js <br>Creación de una cara en movimiento con código.<br> &nbsp; <br> &nbsp; Proyecto didactico que se realiza con el fin de crear e identificar los puntos con los que formamos nuestra cara sabiendo así identificar los ejes dentro del código."</p>
+        </div>
+
+
+        <div class="Texto_Proces">
+            <p>Proceso creativo</p>
+        </div>
+
+        <div class="card-group">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/Imagen_Dibujo.jpg" class="card-img-top B_N grande"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Esbozos</h5>
+                        <p class="card-text"> Lo primero que se debe hacer es un esbozo previo antes de digitalizar el proyecto.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/Imagen_Illustrator.jpg" class="card-img-top B_N"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Construcción</h5>
+                        <p class="card-text">Se ha realizado en illustrator para obtener así de una manera mas visual los tramos de los vértices.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/Imagen_Codigo.jpg" class="card-img-top B_N"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Código</h5>
+                        <p class="card-text">Se traduce esa idea en un lenguaje, en javaScript, comenzar a indicar los ejes que corresponden a casa punto.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/Captura%20de%20pantalla%202019-11-10%20a%20las%2022.03.20.png" class="card-img-top B_N"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Resultado final</h5>
+                        <p class="card-text">El resultado final es obtener la cara diseñada en la construcción, creando así una interacción entre usuario y máquina.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="Texto_Proces">
+            <p>Construción y maquetación</p>
+        </div>
+
+        <div class="card-group">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/01.png" class="card-img-top B_N grande"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Scale - Mouse X</h5>
+                        <p class="card-text">Aquí le decimos a la función draw que todos los vértices se muevan en base al movimiento del cursor.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/02.png" class="card-img-top B_N"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Function TouchStarted</h5>
+                        <p class="card-text">TouchStarted sirve para clickar sobre la cara y hacer que comience a reaccionar basándose en las medidas con nuestra voz.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/02.png" class="card-img-top B_N"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Function WindowResized</h5>
+                        <p class="card-text">WindowResized le decimos canvas que se adapte al ancho total de nuestra página basándose en nuestras medidas.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <figure><img src="img/03.png" class="card-img-top B_N"></figure>
+                    <div class="card-body">
+                        <h5 class="card-title">Vertex</h5>
+                        <p class="card-text">Decimos en que distancia comienzan los puntos y donde queremos que se desplacen con el sonido.</p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="Texto_Proces_01">
+            <p>Resultado final</p>
+        </div>
+
+        <div class="cabecera">
+            <video id="myVideo" muted autoplay loop>
+                <source src="video/Video%20voz_grande.mov" type="video/mp4">
+            </video>
+        </div>
+
+
+        <div class="cabecera_01">
+            <video id="myVideo_01" muted autoplay loop>
+                <source src="video/Video_voz_02.mov" type="video/mp4">
+            </video>
+        </div>
+
+
+        <section class="fin">
+            <div class="final">
+            </div>
+        </section>
+
+    </div>
+
+    
+    <footer>
+
+        <div class="foot" Javier Correa>
+            <p>Javier Correa</p>
+            <a href="https://www.instagram.com/photai_wilde/" class="link">Instagram</a>
+            
+        </div>
+    </footer>
+
+</body>
+
+</html>
+<link rel="stylesheet" href="">
